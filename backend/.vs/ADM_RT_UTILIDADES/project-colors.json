@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "34442ebb-25e5-4c40-92ea-aeba115dbce0": {
+      "ProjectGuid": "34442ebb-25e5-4c40-92ea-aeba115dbce0",
+      "DisplayName": "ADM_RT_RABBITMQ_CONSUMER",
+      "ColorIndex": 0
+    },
+    "e808a9d2-f15e-417b-8b1a-d1dad0496722": {
+      "ProjectGuid": "e808a9d2-f15e-417b-8b1a-d1dad0496722",
+      "DisplayName": "ADM_RT_UTILIDADES",
+      "ColorIndex": 1
+    },
+    "1bbaceaa-0e8e-4ee2-8ef6-1f9e2e697df3": {
+      "ProjectGuid": "1bbaceaa-0e8e-4ee2-8ef6-1f9e2e697df3",
+      "DisplayName": "ADM_RT_CORE_LIB",
+      "ColorIndex": 2
+    },
+    "165e7a1e-8f89-43c2-8c83-b04732a4d3e4": {
+      "ProjectGuid": "165e7a1e-8f89-43c2-8c83-b04732a4d3e4",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = ADM_RT_RABBITMQ_CONSUMER
+build_property.ProjectDir = D:\Projetos\RABBIT_DOTNET\backend\ADM_RT_RABBITMQ_CONSUMER\
