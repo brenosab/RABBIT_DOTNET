@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:56821",
+      "sslPort": 44376
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "APP_RABBIT_HOST": "localhost",
+        "APP_RABBIT_ROUTINGKEY": "home",
+        "APPLICATION": "ApiSensores",
+        "APP_RABBIT_EXCHANGE": "fila_luminosidade",
+        "VERSION": "0.1.0",
+        "APP_RABBIT_PASSWORD": "guest",
+        "APP_RABBIT_USER": "guest",
+        "APP_RABBIT_PORT": "5672"
+      }
+    }
+  }
+}
