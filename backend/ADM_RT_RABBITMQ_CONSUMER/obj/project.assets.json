@@ -332,7 +332,7 @@
           }
         }
       },
-      "ADM_RT_CORE_LIB/1.0.0": {
+      "RABBITMQ_CORE_LIB/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -345,10 +345,10 @@
           "System.Text.Json": "5.0.1"
         },
         "compile": {
-          "bin/placeholder/ADM_RT_CORE_LIB.dll": {}
+          "bin/placeholder/RABBITMQ_CORE_LIB.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ADM_RT_CORE_LIB.dll": {}
+          "bin/placeholder/RABBITMQ_CORE_LIB.dll": {}
         }
       }
     }
@@ -1310,16 +1310,16 @@
         "version.txt"
       ]
     },
-    "ADM_RT_CORE_LIB/1.0.0": {
+    "RABBITMQ_CORE_LIB/1.0.0": {
       "type": "project",
-      "path": "../ADM_RT_CORE_LIB/ADM_RT_CORE_LIB.csproj",
-      "msbuildProject": "../ADM_RT_CORE_LIB/ADM_RT_CORE_LIB.csproj"
+      "path": "../ADM_RT_CORE_LIB/RABBITMQ_CORE_LIB.csproj",
+      "msbuildProject": "../ADM_RT_CORE_LIB/RABBITMQ_CORE_LIB.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "ADM_RT_CORE_LIB >= 1.0.0",
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9"
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
+      "RABBITMQ_CORE_LIB >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1329,9 +1329,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_RABBITMQ_CONSUMER\\ADM_RT_RABBITMQ_CONSUMER.csproj",
-      "projectName": "ADM_RT_RABBITMQ_CONSUMER",
-      "projectPath": "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_RABBITMQ_CONSUMER\\ADM_RT_RABBITMQ_CONSUMER.csproj",
+      "projectUniqueName": "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_RABBITMQ_CONSUMER\\HOME_RABBITMQ_CONSUMER.csproj",
+      "projectName": "HOME_RABBITMQ_CONSUMER",
+      "projectPath": "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_RABBITMQ_CONSUMER\\HOME_RABBITMQ_CONSUMER.csproj",
       "packagesPath": "C:\\Users\\Administrador.DESKTOP-BBFF0L4\\.nuget\\packages\\",
       "outputPath": "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_RABBITMQ_CONSUMER\\obj\\",
       "projectStyle": "PackageReference",
@@ -1353,8 +1353,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_CORE_LIB\\ADM_RT_CORE_LIB.csproj": {
-              "projectPath": "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_CORE_LIB\\ADM_RT_CORE_LIB.csproj"
+            "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_CORE_LIB\\RABBITMQ_CORE_LIB.csproj": {
+              "projectPath": "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_CORE_LIB\\RABBITMQ_CORE_LIB.csproj"
             }
           }
         }

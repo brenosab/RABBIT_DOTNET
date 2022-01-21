@@ -26,3 +26,4 @@ D:\Projetos\RABBIT_DOTNET\backend\ADM_RT_CORE_LIB\obj\Debug\netstandard2.0\ADM_R
 D:\Projetos\RABBIT_DOTNET\backend\ADM_RT_CORE_LIB\obj\Debug\netstandard2.0\ADM_RT_CORE_LIB.csproj.CoreCompileInputs.cache
 D:\Projetos\RABBIT_DOTNET\backend\ADM_RT_CORE_LIB\obj\Debug\netstandard2.0\ADM_RT_CORE_LIB.dll
 D:\Projetos\RABBIT_DOTNET\backend\ADM_RT_CORE_LIB\obj\Debug\netstandard2.0\ADM_RT_CORE_LIB.pdb
+D:\Projetos\RABBIT_DOTNET\backend\ADM_RT_CORE_LIB\obj\Debug\netstandard2.0\ADM_RT_CORE_LIB.csproj.AssemblyReference.cache

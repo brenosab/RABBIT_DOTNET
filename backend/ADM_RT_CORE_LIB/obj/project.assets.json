@@ -1459,9 +1459,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_CORE_LIB\\ADM_RT_CORE_LIB.csproj",
-      "projectName": "ADM_RT_CORE_LIB",
-      "projectPath": "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_CORE_LIB\\ADM_RT_CORE_LIB.csproj",
+      "projectUniqueName": "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_CORE_LIB\\RABBITMQ_CORE_LIB.csproj",
+      "projectName": "RABBITMQ_CORE_LIB",
+      "projectPath": "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_CORE_LIB\\RABBITMQ_CORE_LIB.csproj",
       "packagesPath": "C:\\Users\\Administrador.DESKTOP-BBFF0L4\\.nuget\\packages\\",
       "outputPath": "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_CORE_LIB\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o3Ncit0m4MDXfgeV1fMx0bLuMy2aQrcX+BFdV0kXdDkIrUZqft/KIN709xenL8mRtAwmcoeIlSpxqCuKflfHDw==",
+  "dgSpecHash": "PD2kZrbb5o6HgTLD/SG3UVlA1MyfPv+CfmLyJJqNsmKcPDH+HC4kx1VJYbuSvpgRRJGTLd38H1kqFjauylWEgg==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_CORE_LIB\\ADM_RT_CORE_LIB.csproj",
+  "projectFilePath": "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_CORE_LIB\\RABBITMQ_CORE_LIB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrador.DESKTOP-BBFF0L4\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.3\\microsoft.aspnetcore.http.features.5.0.3.nupkg.sha512",
     "C:\\Users\\Administrador.DESKTOP-BBFF0L4\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",

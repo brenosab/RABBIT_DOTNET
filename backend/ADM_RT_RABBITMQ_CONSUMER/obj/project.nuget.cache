@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WyCAgvWCL7wGKZOEpnzMNC+HKLolCIx9pSE0dQ514WKVfNfl8BQf06RabSCisw1UcwSwGx+bHdQcGeHqozJtdA==",
+  "dgSpecHash": "OtmHRo+ZK6+QSzD4cbA3de4rcruUdlZV/oILSpLcc1JuFwAWUsCohncQWSAf7W6L+UKFSdDlfOEiHru0IsAxyA==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_RABBITMQ_CONSUMER\\ADM_RT_RABBITMQ_CONSUMER.csproj",
+  "projectFilePath": "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_RABBITMQ_CONSUMER\\HOME_RABBITMQ_CONSUMER.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrador.DESKTOP-BBFF0L4\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.3\\microsoft.aspnetcore.http.features.5.0.3.nupkg.sha512",
     "C:\\Users\\Administrador.DESKTOP-BBFF0L4\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",

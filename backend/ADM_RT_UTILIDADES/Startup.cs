@@ -1,5 +1,6 @@
 using ADM_RT_CORE_LIB.Messaging;
 using ADM_RT_CORE_LIB.Messaging.Interfaces;
+using ADM_RT_UTILIDADES.Worker;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -43,6 +44,7 @@ namespace ADM_RT_UTILIDADES
             });
 
             services.AddControllers();
+            services.AddTransient<IHostedService, SensorService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

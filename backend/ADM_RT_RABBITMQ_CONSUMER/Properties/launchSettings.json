@@ -1,13 +1,13 @@
 {
   "profiles": {
-    "ADM_RT_RABBITMQ_CONSUMER": {
+    "HOME_RABBITMQ_CONSUMER": {
       "commandName": "Project",
       "environmentVariables": {
         "APP_RABBIT_QUEUENAME": "fila_luminosidade",
         "ASPNETCORE_ENVIRONMENT": "Development",
         "APP_VERSION": "1.0",
         "APP_RABBIT_HOST": "localhost",
-        "APPLICATION": "ADM_RT_RABBITMQ_CONSUMER",
+        "APPLICATION": "HOME_RABBITMQ_CONSUMER",
         "ADM_EMAIL_PASSWORD": "",
         "APP_RABBIT_PASSWORD": "guest",
         "APP_RABBIT_USER": "guest",

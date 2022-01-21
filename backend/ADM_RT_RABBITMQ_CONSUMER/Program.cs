@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ADM_RT_RABBITMQ_CONSUMER
+namespace HOME_RABBITMQ_CONSUMER
 {
     class Program
     {

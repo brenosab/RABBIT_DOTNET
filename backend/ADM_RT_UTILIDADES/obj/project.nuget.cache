@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fDoKylGWsvO4AbWfSUn4zV+r1YJ0i/KOdDraS9v6EjNiQgbCSNQ2tKp4BCqJKjFOkE1hiVu97wrbk/ENJtfD9g==",
+  "dgSpecHash": "jfnnW9kUA4Tm0UD1RD5Tq7rIz/az7lqo1vSNi1d2QSNmP0Tl4j+Lc8cZzDG0VDwrcLmPkkfSt1Ihb/8aaFIQLw==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_UTILIDADES\\ADM_RT_UTILIDADES.csproj",
+  "projectFilePath": "D:\\Projetos\\RABBIT_DOTNET\\backend\\ADM_RT_UTILIDADES\\SENSOR_RABBITMQ_PUBLISHER.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrador.DESKTOP-BBFF0L4\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.3\\microsoft.aspnetcore.http.features.5.0.3.nupkg.sha512",
     "C:\\Users\\Administrador.DESKTOP-BBFF0L4\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
