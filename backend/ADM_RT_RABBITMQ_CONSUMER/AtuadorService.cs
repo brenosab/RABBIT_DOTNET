@@ -17,7 +17,7 @@ namespace HOME_RABBITMQ_CONSUMER
         {
             var creditRequest = new MsgRequest
             {
-                Cod = (int)CodAtuador.lampada,
+                Cod = (int)CodAtuador.ar_condicionado,
                 Tipo = Enum.GetName(CodAtuador.ar_condicionado)
             };
             // The port number(5001) must match the port of the gRPC server.

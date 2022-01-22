@@ -1,5 +1,4 @@
-﻿using ADM_RT_CORE_LIB.Email;
-using ADM_RT_CORE_LIB.Messaging;
+﻿using ADM_RT_CORE_LIB.Messaging;
 using ADM_RT_CORE_LIB.Messaging.Interfaces;
 using ADM_RT_CORE_LIB.Models;
 using Polly;

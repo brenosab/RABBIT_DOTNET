@@ -1,7 +1,4 @@
-﻿using ADM_RT_CORE_LIB.Models;
-using Microsoft.AspNetCore.Http;
-using RabbitMQ.Client.Events;
-using System.Collections.Generic;
+﻿using RabbitMQ.Client.Events;
 using System.Text;
 using System.Text.Json;
 
@@ -46,57 +43,5 @@ namespace ADM_RT_CORE_LIB.Messaging
                 throw ex;
             }
         }
-
-        public static SerializableEmailData ParseEmailData(EmailData data, string htmlMessage)
-        {
-            SerializableEmailData emailData = new SerializableEmailData() { 
-                AppName = data.AppName,
-                Title = data.Title,
-                Copies = data.Copies,
-                Receivers = data.Receivers,
-                Message = htmlMessage,
-                Attachments = data.Attachments == null ? null : AttachmentsToBytes(data.Attachments)
-            };
-            return emailData;
-        }
-
-        private static List<FileData> AttachmentsToBytes(List<IFormFile> files)
-        {
-            List<FileData> result = new List<FileData>();
-            foreach (var file in files)
-            {
-                result.Add(new FileData()
-                {
-                    Type = file.ContentType,
-                    Name = file.FileName,
-                    Content = GetFileContent(file)
-                });
-            }
-            return result;
-        }
-
-        private static byte[] GetFileContent(IFormFile file)
-        {
-            try
-            {
-                byte[] bytes = new byte[file.Length];
-                int numBytesToRead = (int)file.Length;
-                int numBytesRead = 0;
-                while (numBytesToRead > 0)
-                {
-                    int n = file.OpenReadStream().Read(bytes, numBytesRead, numBytesToRead);
-                    if (n == 0)
-                        break;
-                    numBytesRead += n;
-                    numBytesToRead -= n;
-                }
-                return bytes;
-            }
-            catch (System.Exception)
-            {
-                throw;
-            }
-        }
-
     }
 }
